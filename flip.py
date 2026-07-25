@@ -22,7 +22,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8715344690:AAHQUX6eSkmHzOE7gmpHSy0X0IJ157lIoAs")
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "8739344756").split(",") if x]
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
-FORCE_JOIN_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL", "@YourChannelName")
+FORCE_JOIN_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL", "@axxuloots")
 
 GAME_COST_POINTS = int(os.getenv("GAME_COST_POINTS", 1))
 JOIN_REWARD_POINTS = int(os.getenv("JOIN_REWARD_POINTS", 1))
