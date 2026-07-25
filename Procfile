@@ -1,1 +1,1 @@
-worker: python auto_bot.py
+web: python hosting_bot_premium.py
